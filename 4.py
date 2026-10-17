@@ -1,5 +1,5 @@
-n = int(input("Enter a number:"))
-factorial = 1
-for i in range(1, n+1):
-    factorial = factorial*i
-print(factorial)
+text = input("Enter a string:")
+count = 0
+for char in text:
+    count += 1
+    print(count)

@@ -1,2 +1,6 @@
-for i in range(1, 101):
-    print(i)
+text = input("Enter a string:")
+reverse = text[::-1]
+if text == reverse:
+    print("Palindrome")
+else:
+    print("Not Palindrome")

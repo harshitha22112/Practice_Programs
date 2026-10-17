@@ -1,13 +1,6 @@
-n = int(input("Enter a number:"))
-if n<=1:
-    print("Not Prime")
-else:
-    is_prime = True
-    for i in range(2, n):
-        if n % i == 0:
-            is_prime = False
-            break
-    if is_prime:
-        print("Prime")
-    else:
-        print("Not Prime")
+text = input("Enter a string:")
+duplicates = ""
+for char in text:
+    if text.count(char)>1 and char not in duplicates:
+        duplicates += char
+        print(duplicates)

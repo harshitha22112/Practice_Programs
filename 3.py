@@ -1,5 +1,6 @@
-n = int(input("Enter n:"))
-sum = 0
-for i in range(1, n+1):
-    sum = sum + i
-print(sum)
+text = input("Enter a string:")
+count = 0
+for char in text:
+    if char.lower() in"aeiou":
+        count += 1
+        print(count)
