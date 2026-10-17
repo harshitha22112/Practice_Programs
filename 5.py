@@ -1,6 +1,5 @@
-def check_even_odd(n):
-    if n % 2 == 0:
-        print("Even")
-    else:
-        print("Odd")
-check_even_odd(8)
+numbers = [1,2,3,5]
+n = 5
+total = n*(n+1) // 2
+missing = total - sum(numbers)
+print(missing)

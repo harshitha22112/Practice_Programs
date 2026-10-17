@@ -1,11 +1,8 @@
-def square(n):
-    return n*n
-print(square(6))
-
-def add(a, b):
-    return a+b
-print(add(2, 3))
-
-def greet():
-    print("Hiee")
-greet()
+numbers = [10,20,30,40,50]
+target = int(input("Enter number:"))
+for i in range(len(numbers)):
+    if numbers[i] == target:
+        print("Found")
+        break
+else:
+    print("Not found")

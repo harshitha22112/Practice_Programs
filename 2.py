@@ -1,13 +1,15 @@
-class Student:
-    name = "Harshi"
-    age = 20
-student1 = Student()
-print(student1.name)
-
-class Student:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-        student1 = Student("Harshi", 20)
-        print(student1.name)
-        print(student1.age)
+numbers = [10,20,30,40,50]
+target = int(input("Enter number:"))
+low = 0
+high = len(numbers) - 1
+while low <= high:
+    mid = (low+high) // 2
+    if numbers[mid] == target:
+        print("Found")
+        break
+    elif numbers[mid] < target:
+        low = mid + 1
+    else:
+        high = mid - 1
+else:
+    print("Not found")
