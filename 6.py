@@ -1,6 +1,3 @@
-text = input("Enter a string:")
-duplicates = ""
-for char in text:
-    if text.count(char)>1 and char not in duplicates:
-        duplicates += char
-        print(duplicates)
+numbers = [10, 15, 20, 25, 30, 10]
+for num in set(numbers):
+    print(num, ":", numbers.count(num))

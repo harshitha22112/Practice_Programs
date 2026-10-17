@@ -1,5 +1,3 @@
-text = input("Enter a string:")
-count = 0
-for char in text:
-    count += 1
-    print(count)
+numbers = [10, 15, 20, 25, 30, 10]
+numbers = list(set(numbers))
+print(numbers)

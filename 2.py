@@ -1,6 +1,2 @@
-text = input("Enter a string:")
-reverse = text[::-1]
-if text == reverse:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
+numbers = [5,6,4,3,7,8,4]
+print(min(numbers))

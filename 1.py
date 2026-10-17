@@ -1,3 +1,2 @@
-text = input("Enter a string:")
-reverse = text[::-1]
-print(reverse)
+numbers = [1,2,3,4,5]
+print(max(numbers))

@@ -1,6 +1,4 @@
-text = input("Enter a string:")
-count = 0
-for char in text:
-    if char.lower() in"aeiou":
-        count += 1
-        print(count)
+numbers = [10,15,20,25,30]
+numbers = list(set(numbers))
+numbers.sort()
+print("Second largest:", numbers[-2])

@@ -1,3 +1,3 @@
-text = input("Enter a string:")
-result =text.replace(" ", "")
-print(result)
+numbers = [1,2,3,4,5]
+average = sum(numbers) / len(numbers)
+print(average)
